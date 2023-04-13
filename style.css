@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: #FFD900;
+    padding: 20px 50px;
+}
+
+.tp {
+    display: flex;    
+}
+
+#description {
+    color: white;
+    background-color: #514988;
+    width: 50%;
+    height: 400px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#description h1 {
+    color: #FFD900;
+    margin-bottom: 20px;
+    font-size: 45pt;
+}
+
+#description h3 {
+    margin-bottom: 20px;
+    font-size: 20pt;
+}
+
+#description p {
+    font-size: 15pt;
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20pt;
+    color: #514988;
+    margin:0;
+}
+
+#d {
+    display: flex;
+    margin: 0;
+}
+
+#h {
+    display: flex;
+}
+
+#m {
+    display: flex;
+}
+
+#s {
+    display: flex;
+}
+
+#mark {
+    color: #E33881;
+}
+
+#vt {
+    text-align: center;
+    padding: 20px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+}
+
+#ingressos {
+    color: #FFD900;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+
+
+.pic {
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.pic:hover {
+    transform: scale(1.1);
+    z-index: 2;
+}
+
+button {
+    color: white;
+    font-size: 25pt;
+    border: none;
+    border-radius: 10px;
+    height: fit-content;
+    background-color: #514988;
+    padding: 30px;
+    margin: auto;
+}
+
+button:hover {
+    color: #FFD900;
+    cursor: pointer;
+}
